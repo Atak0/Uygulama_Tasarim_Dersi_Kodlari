@@ -1,1 +1,1 @@
-# Uygulama-Tasar-m-Dersi-Kodlar
+# Uygulama_Tasarim_Dersi_Kodlari
