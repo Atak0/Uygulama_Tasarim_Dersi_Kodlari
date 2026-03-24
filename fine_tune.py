@@ -36,7 +36,7 @@ for layer in model.layers:
     if layer.name.startswith("efficientnet"):
         layer.trainable = True
         
-print("✅ EfficientNet kilitleri açıldı! Tüm ağırlıklar güncellenecek.")
+print("EfficientNet kilitleri açıldı! Tüm ağırlıklar güncellenecek.")
 
 
 model.compile(
@@ -62,8 +62,8 @@ history_fine = model.fit(
 )
 
 model.save("omurga_modeli_finetuned.keras")
-print("\n🎯 İnce ayar tamamlandı ve yeni model başarıyla kaydedildi!\n")
-print("📊 İnce ayarlı modelin performansı hesaplanıyor, lütfen bekleyin...")
+print("\nİnce ayar tamamlandı ve yeni model başarıyla kaydedildi!\n")
+print("İnce ayarlı modelin performansı hesaplanıyor, lütfen bekleyin...")
 
 y_true = []
 y_pred = []
